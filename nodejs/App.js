@@ -8,7 +8,7 @@ const HEADERS = {Authorization: 'bearer ' + API_KEY}
 
 // Main function, that calls the functions related to DC average and Mc's average
 const App = async (apiKey, endpoint, headers) => {
-    dcRestaurants(apiKey, endpoint, headers);
+    //dcRestaurants(apiKey, endpoint, headers);
     mcDonalds(apiKey, endpoint, headers);
 };
 
